@@ -7,8 +7,8 @@ function setup() {
   createElement("h2", "@rasinformática");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
-  campoFantasia = createCheckbox("Gosta de filmes com Qi alto?");
-  campoAventura = createCheckbox("Gosta de filme sobre sistemas?");
+  campoFantasia = createCheckbox("sera que palmeiras tem mundial?");
+  campoAventura = createCheckbox("você é palmeirense?");
 }
 
 function draw() {
@@ -27,7 +27,7 @@ function draw() {
 function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
   if (idade >= 10) {
     if (idade >= 14) {
-      return "Rafael, Fabiula, Maria Helena, Isabel";
+      return "palmeiras não tem mundial";
     } else {
       if (idade >= 12) {
         if(gostaDeFantasia || gostaDeAventura) {
@@ -47,7 +47,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     if (gostaDeFantasia) {
       return "@rasinformática";
     } else {
-      return "Todo Hacker tem um início";
+      return "todo iludido acha que tem mundial";
     }
   }
 }
