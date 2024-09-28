@@ -45,7 +45,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     }
   } else {
     if (gostaDeFantasia) {
-      return "@rasinformática";
+      return "@mateus";
     } else {
       return "todo iludido acha que tem mundial";
     }
